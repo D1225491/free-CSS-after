@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/slick.css" type="text/css" />
     <link rel="stylesheet" href="css/templatemo-style.css">
+    <link rel="stylesheet" href="path/to/your/critical.css">
+    <link rel="preload" href="path/to/your/non-critical.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="path/to/your/non-critical.css"></noscript>
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://apis.google.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; frame-src 'self' https://maps.google.com https://www.google.com;">
 </head>
 <body>
