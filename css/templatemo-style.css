@@ -671,6 +671,6 @@ img {
     max-height: 100%;
 }
 #bg-video {
-    background-image: url('../img/tm-astro-bg.jpg');
+    background-image: url('../img/tm-astro-bg.webp');
 }
 /*============ Preloader ends ==================================*/
